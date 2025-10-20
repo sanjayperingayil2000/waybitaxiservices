@@ -195,22 +195,6 @@ const Footer = () => {
         </motion.div>
       </div>
 
-      {/* Floating Contact Button - Mobile */}
-      <div className="fixed bottom-4 right-4 z-50 md:hidden">
-        <motion.a
-          href="https://wa.me/919876543210?text=Hi%20WayBi,%20I%20want%20to%20book%20a%20ride."
-          target="_blank"
-          rel="noopener noreferrer"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          animate={{ y: [0, -10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          className="bg-green-500 text-white p-4 rounded-full shadow-lg"
-          aria-label="WhatsApp"
-        >
-          <MessageCircle size={24} />
-        </motion.a>
-      </div>
     </footer>
   )
 }

@@ -95,10 +95,10 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-gray-800 mb-4 font-poppins">
                 Get in Touch
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                We're available 24/7 to serve you. Whether you need a quick city ride, 
-                airport transfer, or long-distance travel, we're just a call or message away.
-              </p>
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  We&apos;re available 24/7 to serve you. Whether you need a quick city ride, 
+                  airport transfer, or long-distance travel, we&apos;re just a call or message away.
+                </p>
             </div>
 
             {/* Contact Cards */}
@@ -186,7 +186,7 @@ const Contact = () => {
                   Message Sent!
                 </h4>
                 <p className="text-gray-600">
-                  Thank you for contacting us. We'll get back to you soon.
+                  Thank you for contacting us. We&apos;ll get back to you soon.
                 </p>
               </motion.div>
             ) : (

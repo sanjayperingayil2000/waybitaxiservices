@@ -172,27 +172,27 @@ const Hero = () => {
       </motion.div>
 
       {/* Floating Action Buttons - Mobile */}
-      <div className="fixed bottom-4 right-4 z-50 md:hidden flex flex-col gap-3">
+      <div className="fixed bottom-4 right-2 z-50 md:hidden flex flex-col gap-2">
         <motion.a
           href="tel:+919876543210"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="bg-secondary text-white p-3 rounded-full shadow-lg"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="bg-secondary text-white p-2.5 rounded-full shadow-lg border-0 outline-none"
           aria-label="Call Now"
         >
-          <Phone size={24} />
+          <Phone size={20} />
         </motion.a>
         
         <motion.a
           href="https://wa.me/919876543210?text=Hi%20WayBi,%20I%20want%20to%20book%20a%20ride."
           target="_blank"
           rel="noopener noreferrer"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="bg-green-500 text-white p-3 rounded-full shadow-lg"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="bg-green-500 text-white p-2.5 rounded-full shadow-lg border-0 outline-none"
           aria-label="WhatsApp"
         >
-          <MessageCircle size={24} />
+          <MessageCircle size={20} />
         </motion.a>
       </div>
     </section>

@@ -72,9 +72,7 @@ const Header = () => {
                   }`}
                 >
                   {item.name}
-                  <span className={`absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-primary to-secondary transition-all duration-300 ${
-                    isScrolled ? 'w-0 hover:w-full' : 'w-0 hover:w-full'
-                  }`} />
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-secondary transition-all duration-300 hover:w-full" />
                 </motion.button>
               ))}
             </nav>

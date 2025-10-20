@@ -4,6 +4,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import Image from 'next/image'
 import { Award, Shield, Clock, Heart } from 'lucide-react'
 
 const About = () => {
@@ -117,9 +118,11 @@ const About = () => {
             {/* Main Image */}
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                   alt="WayBi professional driver"
+                  width={800}
+                  height={600}
                   className="w-full h-full object-cover"
                 />
               </div>

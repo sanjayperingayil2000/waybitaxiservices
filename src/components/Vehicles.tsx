@@ -4,6 +4,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import Image from 'next/image'
 import { Users, Snowflake, Luggage, Shield } from 'lucide-react'
 
 const Vehicles = () => {
@@ -121,9 +122,11 @@ const Vehicles = () => {
             >
               {/* Vehicle Image */}
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={vehicle.image}
                   alt={vehicle.name}
+                  width={600}
+                  height={300}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1">
